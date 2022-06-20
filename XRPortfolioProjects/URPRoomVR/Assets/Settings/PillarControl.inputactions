@@ -1,0 +1,34 @@
+{
+    "name": "PillarControl",
+    "maps": [
+        {
+            "name": "PillarViewControl",
+            "id": "685cf83b-411b-4cd8-bb92-b8c514488f48",
+            "actions": [
+                {
+                    "name": "ChangePillar",
+                    "type": "Button",
+                    "id": "dd7b7396-648b-4dbf-a726-bd2efc2d09b8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6f1d3a3a-2e25-4e34-ae8e-979bc43e6c7b",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangePillar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
