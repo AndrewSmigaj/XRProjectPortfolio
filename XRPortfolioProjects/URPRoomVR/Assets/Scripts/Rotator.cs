@@ -5,6 +5,9 @@ using UnityEngine;
 public class Rotator : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public Vector3 testAxis;
+
     void Start()
     {
         
@@ -13,6 +16,6 @@ public class Rotator : MonoBehaviour
     // Update is called once per frame
     void Update ()
 	{
-    	transform.Rotate (0,25*Time.deltaTime,0); //rotates 50 degrees per second around z axis
+    	transform.Rotate ( 25 * Time.deltaTime * testAxis); //rotates 50 degrees per second around z axis
 	}
 }
