@@ -15,7 +15,7 @@ public class CameraManager : MonoBehaviour
 
     public View[] views = new View[6];
 
-    private int pointer = 0;
+    public int pointer = 2;
 
     [SerializeField]
     //[Header("Text Styles")]
