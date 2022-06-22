@@ -27,11 +27,6 @@ public class ExplosionTest : MonoBehaviour
         //}
     }
 
-    void OnTriggerEnter(Collision hit)
-    {
-        //if (hit.impactForceSum.magnitude > 10) {
-        Debug.Log("nay");
-        //}
-    }
+
 
 }

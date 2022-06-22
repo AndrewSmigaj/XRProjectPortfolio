@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ladder2
+  - Primitive
   layers:
   - Default
   - TransparentFX
